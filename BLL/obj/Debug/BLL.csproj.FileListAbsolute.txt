@@ -1,0 +1,55 @@
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\BLL\bin\Debug\BLL.dll
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\BLL\bin\Debug\BLL.pdb
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\BLL\bin\Debug\Commom.dll
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\BLL\bin\Debug\DAL.dll
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\BLL\bin\Debug\Model.dll
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\BLL\bin\Debug\Commom.pdb
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\BLL\bin\Debug\DAL.pdb
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\BLL\bin\Debug\Model.pdb
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\BLL\obj\Debug\BLL.dll
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\BLL\obj\Debug\BLL.pdb
+D:\shanliang\BLL\bin\Debug\BLL.dll
+D:\shanliang\BLL\bin\Debug\BLL.pdb
+D:\shanliang\BLL\bin\Debug\Commom.dll
+D:\shanliang\BLL\bin\Debug\DAL.dll
+D:\shanliang\BLL\bin\Debug\Model.dll
+D:\shanliang\BLL\bin\Debug\Commom.pdb
+D:\shanliang\BLL\bin\Debug\DAL.pdb
+D:\shanliang\BLL\bin\Debug\Model.pdb
+D:\shanliang\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\shanliang\BLL\obj\Debug\BLL.dll
+D:\shanliang\BLL\obj\Debug\BLL.pdb
+D:\sl\BLL\bin\Debug\BLL.dll
+D:\sl\BLL\bin\Debug\BLL.pdb
+D:\sl\BLL\bin\Debug\Commom.dll
+D:\sl\BLL\bin\Debug\DAL.dll
+D:\sl\BLL\bin\Debug\Model.dll
+D:\sl\BLL\bin\Debug\Commom.pdb
+D:\sl\BLL\bin\Debug\DAL.pdb
+D:\sl\BLL\bin\Debug\Model.pdb
+D:\sl\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\sl\BLL\obj\Debug\BLL.dll
+D:\sl\BLL\obj\Debug\BLL.pdb
+F:\shanliang\BLL\bin\Debug\BLL.dll
+F:\shanliang\BLL\bin\Debug\BLL.pdb
+F:\shanliang\BLL\bin\Debug\Commom.dll
+F:\shanliang\BLL\bin\Debug\DAL.dll
+F:\shanliang\BLL\bin\Debug\Model.dll
+F:\shanliang\BLL\bin\Debug\Commom.pdb
+F:\shanliang\BLL\bin\Debug\DAL.pdb
+F:\shanliang\BLL\bin\Debug\Model.pdb
+F:\shanliang\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\shanliang\BLL\obj\Debug\BLL.dll
+F:\shanliang\BLL\obj\Debug\BLL.pdb
+F:\shanliang_web\BLL\bin\Debug\BLL.dll
+F:\shanliang_web\BLL\bin\Debug\BLL.pdb
+F:\shanliang_web\BLL\bin\Debug\Commom.dll
+F:\shanliang_web\BLL\bin\Debug\DAL.dll
+F:\shanliang_web\BLL\bin\Debug\Model.dll
+F:\shanliang_web\BLL\bin\Debug\Commom.pdb
+F:\shanliang_web\BLL\bin\Debug\DAL.pdb
+F:\shanliang_web\BLL\bin\Debug\Model.pdb
+F:\shanliang_web\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\shanliang_web\BLL\obj\Debug\BLL.dll
+F:\shanliang_web\BLL\obj\Debug\BLL.pdb

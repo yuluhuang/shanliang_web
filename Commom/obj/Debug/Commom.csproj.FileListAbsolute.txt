@@ -1,0 +1,21 @@
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\Commom\bin\Debug\Commom.dll
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\Commom\bin\Debug\Commom.pdb
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\Commom\obj\Debug\Commom.dll
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\Commom\obj\Debug\Commom.pdb
+D:\shanliang\Commom\bin\Debug\Commom.dll
+D:\shanliang\Commom\bin\Debug\Commom.pdb
+D:\shanliang\Commom\obj\Debug\Commom.dll
+D:\shanliang\Commom\obj\Debug\Commom.pdb
+D:\sl\Commom\bin\Debug\Commom.dll
+D:\sl\Commom\bin\Debug\Commom.pdb
+D:\sl\Commom\obj\Debug\Commom.dll
+D:\sl\Commom\obj\Debug\Commom.pdb
+F:\shanliang\Commom\bin\Debug\Commom.dll
+F:\shanliang\Commom\bin\Debug\Commom.pdb
+F:\shanliang\Commom\obj\Debug\Commom.csprojResolveAssemblyReference.cache
+F:\shanliang\Commom\obj\Debug\Commom.dll
+F:\shanliang\Commom\obj\Debug\Commom.pdb
+F:\shanliang_web\Commom\bin\Debug\Commom.dll
+F:\shanliang_web\Commom\bin\Debug\Commom.pdb
+F:\shanliang_web\Commom\obj\Debug\Commom.dll
+F:\shanliang_web\Commom\obj\Debug\Commom.pdb

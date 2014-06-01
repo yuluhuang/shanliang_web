@@ -1,0 +1,9 @@
+F:\shanliang\Commom\bin\Release\Commom.dll
+F:\shanliang\Commom\bin\Release\Commom.pdb
+F:\shanliang\Commom\obj\Release\Commom.dll
+F:\shanliang\Commom\obj\Release\Commom.pdb
+F:\shanliang_web\Commom\bin\Release\Commom.dll
+F:\shanliang_web\Commom\bin\Release\Commom.pdb
+F:\shanliang_web\Commom\obj\Release\Commom.csprojResolveAssemblyReference.cache
+F:\shanliang_web\Commom\obj\Release\Commom.dll
+F:\shanliang_web\Commom\obj\Release\Commom.pdb

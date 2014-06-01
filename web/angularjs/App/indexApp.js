@@ -1,0 +1,88 @@
+﻿var app = angular.module("indexApp", ['share.header.directives', 'share.login.service', 'baseurl.service', 'share.footer.directives',
+'share.metroB.directives', 'share.metroA.directives', 'share.metroC.directives', 'ngRoute', 'ngSanitize']);
+
+app.config(function ($routeProvider) {
+    $routeProvider.when("/", {
+        controller: "indexShowCtrl",
+        templateUrl: "indexShow.html"
+    });
+    $routeProvider.when("/note/:noteid", {
+        controller: "noteShowCtrl",
+        templateUrl: "noteShowCtrl.html"
+    });
+   
+});
+app.controller('indexCtrl', function ($scope, $location) {
+    //解决section造成noteshow无法滚动问题
+    $scope.ifTrueDelSection = true;
+});
+
+app.controller('indexShowCtrl', function ($scope, $location, ylhService) {
+    //解决section造成noteshow无法滚动问题
+    $scope.$parent.ifTrueDelSection = true;
+
+    $scope.notePage = {};
+    $scope.notePage.count = 1;
+    var notePage = $scope.notePage;
+    ylhService.post({ flag: "getNotes" }, notePage, function (response) {
+        //console.info(response[0].noteSearch[0].notes.length);
+        if (response[0] && response[0].noteSearch) {
+            var aa = response[0].noteSearch[0].notes;
+            $scope.notes = aa;
+        }
+    });
+
+    $scope.noteNext = function () {
+        $scope.notePage.count += 1;
+        var notePage = $scope.notePage;
+        ylhService.post({ flag: "getNotes" }, notePage, function (response) {
+           // console.info(response[0].noteSearch[0].notes.length);
+            if (response[0] && response[0].noteSearch && response[0].noteSearch[0].notes.length) {
+                var aa = response[0].noteSearch[0].notes;
+                $scope.notes = aa;
+            } else {
+                alert("已是最后一页");
+            }
+        });
+    }
+
+    $scope.notePrev = function () {
+        $scope.notePage.count -= 1;
+        if ($scope.notePage.count >= 1) {
+            var notePage = $scope.notePage;
+            ylhService.post({ flag: "getNotes" }, notePage, function (response) {
+                if (response[0] && response[0].noteSearch) {
+                    var aa = response[0].noteSearch[0].notes;
+                    $scope.notes = aa;
+                }
+            });
+        }
+    }
+
+    $scope.showNote = function (note) {
+        console.info(note);
+        $location.path("note/" + note.noteID);
+        $scope.blog = note;
+    }
+});
+
+
+app.controller('noteShowCtrl', function ($scope, $location, ylhService, $routeParams, $sce) {
+    //解决section造成noteshow无法滚动问题
+    $scope.$parent.ifTrueDelSection = false;
+
+    $scope.note = {};
+    $scope.note.noteId = $routeParams.noteid;
+    var note = $scope.note;
+    ylhService.post({ flag: "getNoteByNoteId" }, note, function (response) {
+        console.info(response);
+        if (response[0] && response[0].note) {
+            var n = response[0].note[0];
+            n.noteContent = $sce.trustAsHtml(decodeURIComponent(n.noteContent));
+            $scope.myblog = n;
+        }
+    });
+    $scope.backIndex = function () {
+        $location.path("/");
+    }
+});

@@ -1,0 +1,45 @@
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\DAL\bin\Debug\DAL.dll
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\DAL\bin\Debug\DAL.pdb
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\DAL\bin\Debug\Commom.dll
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\DAL\bin\Debug\Model.dll
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\DAL\bin\Debug\Commom.pdb
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\DAL\bin\Debug\Model.pdb
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\DAL\obj\Debug\DAL.dll
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\DAL\obj\Debug\DAL.pdb
+D:\shanliang\DAL\bin\Debug\DAL.dll
+D:\shanliang\DAL\bin\Debug\DAL.pdb
+D:\shanliang\DAL\bin\Debug\Commom.dll
+D:\shanliang\DAL\bin\Debug\Model.dll
+D:\shanliang\DAL\bin\Debug\Commom.pdb
+D:\shanliang\DAL\bin\Debug\Model.pdb
+D:\shanliang\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\shanliang\DAL\obj\Debug\DAL.dll
+D:\shanliang\DAL\obj\Debug\DAL.pdb
+D:\sl\DAL\bin\Debug\DAL.dll
+D:\sl\DAL\bin\Debug\DAL.pdb
+D:\sl\DAL\bin\Debug\Commom.dll
+D:\sl\DAL\bin\Debug\Model.dll
+D:\sl\DAL\bin\Debug\Commom.pdb
+D:\sl\DAL\bin\Debug\Model.pdb
+D:\sl\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\sl\DAL\obj\Debug\DAL.dll
+D:\sl\DAL\obj\Debug\DAL.pdb
+F:\shanliang\DAL\bin\Debug\DAL.dll
+F:\shanliang\DAL\bin\Debug\DAL.pdb
+F:\shanliang\DAL\bin\Debug\Commom.dll
+F:\shanliang\DAL\bin\Debug\Model.dll
+F:\shanliang\DAL\bin\Debug\Commom.pdb
+F:\shanliang\DAL\bin\Debug\Model.pdb
+F:\shanliang\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\shanliang\DAL\obj\Debug\DAL.dll
+F:\shanliang\DAL\obj\Debug\DAL.pdb
+F:\shanliang_web\DAL\bin\Debug\DAL.dll
+F:\shanliang_web\DAL\bin\Debug\DAL.pdb
+F:\shanliang_web\DAL\bin\Debug\Commom.dll
+F:\shanliang_web\DAL\bin\Debug\Model.dll
+F:\shanliang_web\DAL\bin\Debug\Commom.pdb
+F:\shanliang_web\DAL\bin\Debug\Model.pdb
+F:\shanliang_web\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\shanliang_web\DAL\obj\Debug\DAL.dll
+F:\shanliang_web\DAL\obj\Debug\DAL.pdb

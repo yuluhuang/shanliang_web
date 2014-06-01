@@ -1,0 +1,13 @@
+D:\sl\web\bin\web.dll
+D:\sl\web\bin\web.pdb
+D:\sl\web\bin\BLL.dll
+D:\sl\web\bin\Commom.dll
+D:\sl\web\bin\Model.dll
+D:\sl\web\bin\DAL.dll
+D:\sl\web\bin\BLL.pdb
+D:\sl\web\bin\Commom.pdb
+D:\sl\web\bin\Model.pdb
+D:\sl\web\bin\DAL.pdb
+D:\sl\web\obj\Debug\_web.csprojResolveAssemblyReference.cache
+D:\sl\web\obj\Debug\web.dll
+D:\sl\web\obj\Debug\web.pdb

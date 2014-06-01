@@ -1,0 +1,21 @@
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\Model\bin\Debug\Model.dll
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\Model\bin\Debug\Model.pdb
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\Model\obj\Debug\Model.dll
+c:\users\yuluhuang\documents\visual studio 2010\Projects\shanliang\Model\obj\Debug\Model.pdb
+D:\shanliang\Model\bin\Debug\Model.dll
+D:\shanliang\Model\bin\Debug\Model.pdb
+D:\shanliang\Model\obj\Debug\Model.dll
+D:\shanliang\Model\obj\Debug\Model.pdb
+D:\sl\Model\bin\Debug\Model.dll
+D:\sl\Model\bin\Debug\Model.pdb
+D:\sl\Model\obj\Debug\Model.dll
+D:\sl\Model\obj\Debug\Model.pdb
+F:\shanliang\Model\bin\Debug\Model.dll
+F:\shanliang\Model\bin\Debug\Model.pdb
+F:\shanliang\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+F:\shanliang\Model\obj\Debug\Model.dll
+F:\shanliang\Model\obj\Debug\Model.pdb
+F:\shanliang_web\Model\bin\Debug\Model.dll
+F:\shanliang_web\Model\bin\Debug\Model.pdb
+F:\shanliang_web\Model\obj\Debug\Model.dll
+F:\shanliang_web\Model\obj\Debug\Model.pdb
