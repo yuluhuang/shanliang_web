@@ -54,7 +54,7 @@
                     <input type="text" ng-model="searchText" id="search" class="col-md-3 form-control"
                         placeholder="Search"></div>
                 <ul class="nav nav-list col-md-12 ">
-                    <li ng-repeat="note in notes|filter:{noteTitle:searchText}|limitTo:20"><a class="col-md-8"
+                    <li ng-repeat="note in notes|filter:{noteTitle:searchText}"><a class="col-md-8"
                         ng-click="selectNote(note.noteID)" ng-bind="note.noteTitle | limitTo:12"></a> <a ng-click="deleteNote(note.noteID)"
                             class="col-md-3" style=""><i class="glyphicon glyphicon-trash"></i></a></li>
                 </ul>

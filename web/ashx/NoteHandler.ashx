@@ -31,6 +31,8 @@ public class NoteHandler : AbstractHandler, IHttpHandler, IRequiresSessionState
                     note.noteContent = getandpost(context, "content");
                     note.noteTime = getandpost(context, "time");
                     note.noteTag =  getandpost(context, "tag");
+                    note.ispublic = getandpost(context, "ispublic");
+                    note.reprint = getandpost(context, "reprint");
                     /*
                     using (var reader = new StreamReader(context.Request.InputStream))
                     {

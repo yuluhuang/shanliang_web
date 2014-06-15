@@ -14,5 +14,7 @@ namespace UN.Model
         public string noteTag { get; set; }
         public string userId { get; set; }
         public string noteUrl { get; set; }
+        public string ispublic { get; set; }
+        public string reprint { get; set; }
     }
 }

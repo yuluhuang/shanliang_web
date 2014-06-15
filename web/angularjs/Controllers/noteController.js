@@ -1,12 +1,15 @@
 ﻿var app = angular.module("share.note.controller", []);
 app.controller("noteController", function ($scope, noteAPIService, loginAPIService) {
     $scope.note = {};
+    $scope.note.ispublic = "1";
+    $scope.note.reprint = "0";
+    $scope.showurl = false;
     $scope.saveNote = function () {
         loginAPIService.islogin().success(function (data) {
             if (data[0].flag) {
                 console.info(nicEditors.findEditor('areacontent').getContent());
-               $scope.note.content = encodeURIComponent(nicEditors.findEditor('areacontent').getContent());
-                 //$scope.note.content = nicEditors.findEditor('areacontent').getContent();
+                $scope.note.content = encodeURIComponent(nicEditors.findEditor('areacontent').getContent());
+                //$scope.note.content = nicEditors.findEditor('areacontent').getContent();
                 $scope.note.tag = "111";
                 $scope.note.time = (new Date()).getTime();
 
@@ -28,8 +31,16 @@ app.controller("noteController", function ($scope, noteAPIService, loginAPIServi
                         alert("success");
                     }
                 });
-
             }
         });
     }
+
+
+    $scope.reprint = function () {
+        $scope.showurl = !$scope.showurl;
+        if (!$scope.note.reprint) {
+            $scope.note.url = "";
+        }
+    }
+
 });

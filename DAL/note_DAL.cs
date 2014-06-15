@@ -29,13 +29,17 @@ namespace UN.DAL
                     new SqlParameter("@noteTag",SqlDbType.NVarChar,100),
                     new SqlParameter("@userId",SqlDbType.NVarChar,32),
                     new SqlParameter("@noteUrl",SqlDbType.NVarChar,150),
+                    new SqlParameter("@reprint",SqlDbType.NVarChar,1),
+                    new SqlParameter("@ispublic",SqlDbType.NVarChar,1),
                     };
                 parames[0].Value = note.noteTitle;
                 parames[1].Value = note.noteContent;
                 parames[2].Value = note.noteTime;
                 parames[3].Value = note.noteTag;
                 parames[4].Value = note.userId;
-                parames[5].Value = note.noteUrl;
+                parames[5].Value = note.noteUrl ?? "";;
+                parames[6].Value = note.reprint;
+                parames[7].Value = note.ispublic;
 
                 return DB.ExecuteNonQuery(cs, "saveNote", parames) > 0 ? true : false;
             }

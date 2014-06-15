@@ -2,17 +2,18 @@
     <div header-d>
     </div>
 </div>
-<div class="content-wrapper tiles indigo" style="width: 1480px;">
-    <h2 > <a class="glyphicon  glyphicon-chevron-left" ng-click="notePrev()" style="cursor:pointer"></a>
-    <span style="">上·下[服务器渣，加载较慢]</span>
-    <a class="glyphicon glyphicon-chevron-right" ng-click="noteNext()" style="cursor:pointer"></a> 
+<div class="content-wrapper tiles indigo" style="width: {{metroWidthPX}}">
+    <h2 >welcome[站长邮箱:1737249565@qq.com]
     </h2>
 
-    <div class="live-tile two-wide exclude" ng-repeat="note in notes">
+    <div class="live-tile two-wide exclude" ng-repeat="note in notes | orderBy:note.noteTime">
         <div ng-click="showNote(note)" style="cursor:pointer;">
         <!--    <p ng-bind-html="note.noteContent"></p>-->
-            <p ng-bind="note.noteTitle"></p>                        
+            <p ng-bind="note.noteTitle"></p> 
+            <span class="tile-title">发布时间{{note.noteTime | date:'yyyy-MM-dd'}}</span>                   
         </div>
+        
     </div>
+    
 </div>
-<footer footer-menu></footer>
+
